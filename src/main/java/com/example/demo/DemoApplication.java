@@ -22,7 +22,7 @@ public class DemoApplication {
 	@GetMapping("count-users")
 	public String getCountUsers(){
 		long numberUsers = userRepository.count();
-		return "Number of users = "+numberUsers;
+		return "hello-world";
 	}
 
 	@GetMapping("add-user")
